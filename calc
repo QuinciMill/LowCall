@@ -1,0 +1,65 @@
+def func1(arg1, arg2):
+    if arg1 < arg1:
+        var7 = class2()
+    else:
+        var7 = class4()
+    for var8 in range(21):
+        var7.func3(arg1, arg1)
+    def func6(arg9, arg10):
+        var11 = arg9 ^ arg10 + arg2
+        result = arg2 & arg9 ^ arg2
+        return result
+    var12 = func6(arg1, arg2)
+    if arg1 < arg2:
+        var17 = class7()
+    else:
+        var17 = class9()
+    for var18 in (var12 + var12 ^ ((((2 | (((i - i - i) & i) + -2 | var12)) + var12) + arg2) | i) for i in func11(var12, -1)):
+        var17.func8(arg2, var18)
+    var31 = arg1 & -1263979485
+    var32 = ((676704443 ^ arg1 | arg1) & 964) - -1659423220 | -581
+    result = arg2 - ((var12 + var31) & (((var12 | (var32 + var12)) ^ -1362410027 + -1670664607) ^ arg1) + -222 & var32) - var12
+    return result
+def func11(arg19, arg20):
+    var21 = ((573629481 & arg19) ^ arg20) | 177
+    yield var21
+    var22 = arg19 & -103 + -1254155049 | 447128565
+    yield var22
+    var23 = ((var21 - var21) - var22) | -184
+    yield var23
+    var24 = -623 ^ (1419153767 | arg20) ^ 602
+    yield var24
+    var25 = arg19 | -172
+    yield var25
+    var26 = var24 - var24
+    yield var26
+    var27 = (715 - var23) & arg19
+    yield var27
+    var28 = (var26 + arg20) - (var22 & var21)
+    yield var28
+    var29 = var21 - var27 + var24 & var21
+    yield var29
+    var30 = -1325792647 | var28
+    yield var30
+class class9(object):
+    def func8(self, arg15, arg16):
+        return 0
+class class7(class9):
+    def func8(self, arg13, arg14):
+        result = (arg14 & arg14 + 667430362 & arg13 - (-1 & 881189614)) & arg14
+        return result
+class class4(object):
+    def func3(self, arg5, arg6):
+        return 0
+class class2(object):
+    def func3(self, arg3, arg4):
+        result = 0 - 952315204
+        return result
+if __name__ == "__main__":
+    print 'prog_size: 5'
+    print 'func_number: 12'
+    print 'arg_number: 33'
+    for i in xrange(25000):
+        x = 5
+        x = func1(x, i)
+        print x,
